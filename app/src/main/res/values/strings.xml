@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">HealthTest 1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_add_patient">AddPatient</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="patient">Patient</string>
+    <string name="hospital">Hospital</string>
+    <string name="active_camps">Active Camps</string>
+    <string name="Locations">Locations</string>
+    <string name="medication">Medication</string>
+    <string name="dependent">Dependent</string>
+    <string name="address">Address</string>
+
+    <string name="view_patient">View Patient</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="patient_count">Patient Count</string>
+    <string name="pId">Patient ID</string>
+
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="dateOfBirth">Date Of Birth</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="middleName">Middle Name</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+
+    <string name="hNo">Number</string>
+    <string name="street">Street</string>
+    <string name="area">Area</string>
+    <string name="city">City</string>
+    <string name="pinCode">Pin Code</string>
+    <string name="name">Name</string>
+    <string name="relation">Relation</string>
+
+    <string name="condition">Health Condition</string>
+    <string name="conditionActive">Condition Active</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_patient">PatientActivity</string>
+</resources>
