@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.fragment_people.*
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -26,6 +27,5 @@ class PeopleFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_people, container, false)
     }
-
-
+    
 }

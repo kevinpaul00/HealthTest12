@@ -4,17 +4,17 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_patient.*
+import kotlinx.android.synthetic.main.fragment_people.*
 
-class PatientActivity : AppCompatActivity() {
+class AddPatient2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_patient)
+        setContentView(R.layout.fragment_people)
 
-        floatingAddPatient.setOnClickListener{
-            val intent = Intent(this, AddPatient2::class.java)
+        button2.setOnClickListener{
+            val intent = Intent(this, AddressActivity2::class.java)
             startActivity(intent)
         }
     }
-
 }

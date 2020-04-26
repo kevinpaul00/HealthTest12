@@ -37,6 +37,7 @@
     <string name="middleName">Middle Name</string>
     <string name="gender">Gender</string>
     <string name="save">Save</string>
+    <string name="next">Next</string>
 
     <string name="hNo">Number</string>
     <string name="street">Street</string>
