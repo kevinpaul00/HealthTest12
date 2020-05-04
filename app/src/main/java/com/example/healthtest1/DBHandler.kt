@@ -63,11 +63,13 @@ class DBHandler(
 
     fun getPatients(mCtx:Context):ArrayList<Patient>{
         val qry="Select * from $TABLE_NAME"
+        val db=this.readableDatabase
         val cursor=db.rawQuery(qry,null)
         val patients=ArrayList<Patient>()
         if (cursor.count==0)
             Toast.makeText(mCtx,"No records found",Toast.LENGTH_SHORT).show() else
         {
+            cursor.moveToFirst()
             while (!cursor.isAfterLast()){
                 val patient=Patient()
                 patient.pid=cursor.getString(cursor.getColumnIndex(COLUMN_PID))
