@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.healthtest1">
+        package="com.example.healthtest1">
 
     <application
             android:allowBackup="true"
@@ -9,34 +9,29 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".AddressActivity2">
-        </activity>
-        <activity android:name=".AddPatient2">
-        </activity>
+        <activity android:name=".NoteActivity" />
+        <activity android:name=".Main3LActivity" />
+        <activity android:name=".AddressActivity2" />
+        <activity android:name=".AddPatient2" />
         <activity
                 android:name=".PatientActivity"
                 android:label="@string/title_activity_patient"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".LocationActivity">
-        </activity>
-        <activity android:name=".CampsActivity">
-        </activity>
-        <activity android:name=".HospitalActivity">
-        </activity>
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".CampsActivity" />
+        <activity android:name=".HospitalActivity" />
         <activity
                 android:name=".AddPatient"
                 android:label="@string/title_activity_add_patient"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+                android:theme="@style/AppTheme.NoActionBar" />
         <activity
                 android:name=".MainActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
